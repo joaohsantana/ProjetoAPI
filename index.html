@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">nk
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+    <h1>Meu Portfólio</h1>
+
+    <div class="album-container">
+        <div class="album" onclick="expandirAlbum(1)">
+            <img class="avatar" src="https://via.placeholder.com/100" alt="Avatar do Álbum 1">
+            <h2>Álbum 1</h2>
+        </div>
+
+        <div class="album" onclick="expandirAlbum(2)">
+            <img class="avatar" src="https://via.placeholder.com/100" alt="Avatar do Álbum 2">
+            <h2>Álbum 2</h2>
+        </div>
+
+        <div class="album" onclick="adicionarAlbum()">
+            <h2>+</h2>
+        </div>
+    </div>
+
+    <div id="albumExpandido">
+        <h2 id="albumTitulo"></h2>
+        <div id="carouselImagens"></div>
+        <button id="fecharAlbumBtn" onclick="fecharAlbum()">Fechar Álbum</button>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
